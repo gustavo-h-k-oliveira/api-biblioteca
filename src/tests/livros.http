@@ -1,0 +1,29 @@
+@url = https://ominous-halibut-p7j664949pc77w7-8080.app.github.dev
+
+GET {{url}}/livros
+
+###
+GET {{url}}/livros/3
+
+###
+POST {{url}}/livros
+Content-Type: application/json
+
+{
+    "titulo": "Novo Teste",
+    "id_genero" : 1,
+    "autores" : "Fulano de Tal"
+}
+
+###
+PUT {{url}}/livros/5
+Content-Type: application/json
+
+{
+    "titulo": "Livro 5 Alterado",
+    "generos" : "Genero Alterado",
+    "autores" : "Autor Alterado"
+}
+
+###
+DELETE {{url}}/livros/5

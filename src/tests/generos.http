@@ -1,0 +1,25 @@
+@url = https://ominous-halibut-p7j664949pc77w7-8080.app.github.dev
+
+GET {{url}}/generos
+
+###
+GET {{url}}/generos/2
+
+###
+POST {{url}}/generos
+Content-Type: application/json
+
+{
+    "descricao" : "Aventura" 
+}
+
+###
+PUT {{url}}/generos/2
+Content-Type: application/json
+
+{
+    "descricao" : "Aventura - Alterado" 
+}
+
+###
+DELETE {{url}}/generos/1
