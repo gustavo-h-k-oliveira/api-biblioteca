@@ -1,0 +1,12 @@
+@url = https://obscure-palm-tree-9v4vq97w4xjh9xrx-8080.app.github.dev
+
+GET {{url}}/autores
+
+###
+
+POST {{url}}/autores
+Content-Type: application/json
+
+{
+    "nome" : "Franz Kafka" 
+}

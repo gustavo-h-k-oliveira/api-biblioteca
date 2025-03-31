@@ -4,6 +4,7 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import application.record.AutorDTO;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,4 +22,9 @@ public class Autor {
     private long id;
     @Column(nullable = false)
     private String nome;
+
+    public Autor(AutorDTO dto) {
+        this.id = dto.id();
+        this.nome = dto.nome();
+    }
 }

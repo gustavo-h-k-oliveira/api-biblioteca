@@ -1,4 +1,4 @@
-@url = https://ominous-halibut-p7j664949pc77w7-8080.app.github.dev
+@url = https://obscure-palm-tree-9v4vq97w4xjh9xrx-8080.app.github.dev
 
 GET {{url}}/generos
 
@@ -18,7 +18,7 @@ PUT {{url}}/generos/2
 Content-Type: application/json
 
 {
-    "descricao" : "Aventura - Alterado" 
+    "descricao" : "Ação" 
 }
 
 ###

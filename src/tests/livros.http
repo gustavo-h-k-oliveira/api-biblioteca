@@ -10,9 +10,9 @@ POST {{url}}/livros
 Content-Type: application/json
 
 {
-    "titulo": "Novo Teste",
+    "titulo": "Metamorfose",
     "id_genero" : 1,
-    "autores" : "Fulano de Tal"
+    "autores" : [{"id": 1}]
 }
 
 ###
