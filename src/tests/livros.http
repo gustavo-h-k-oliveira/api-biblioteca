@@ -1,4 +1,4 @@
-@url = https://ominous-halibut-p7j664949pc77w7-8080.app.github.dev
+@url = https://obscure-palm-tree-9v4vq97w4xjh9xrx-8080.app.github.dev
 
 GET {{url}}/livros
 
@@ -20,7 +20,7 @@ PUT {{url}}/livros/5
 Content-Type: application/json
 
 {
-    "titulo": "Livro 5 Alterado",
+    "titulo" : "Livro 5 Alterado",
     "generos" : "Genero Alterado",
     "autores" : "Autor Alterado"
 }
