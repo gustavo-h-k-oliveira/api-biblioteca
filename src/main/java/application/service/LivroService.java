@@ -39,6 +39,7 @@ public class LivroService {
                 HttpStatus.NOT_FOUND, "Livro Não Encontrado"
             );
         }
+        
         return new LivroDTO(resultado.get());
     }
 
@@ -88,6 +89,7 @@ public class LivroService {
                 HttpStatus.NOT_FOUND, "Livro Não Encontrado"
             );
         }
+
         livroRepo.deleteById(id);
     }
 }
